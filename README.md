@@ -1,12 +1,11 @@
-# Clojang Codox Theme
+# Clozhang Codox Theme
 
 This is a modern and responsive [codox][codox] theme developed for
-use by Clojang projects and based based on
+use by Clozhang projects and based based on
 [codox-theme-rdash](https://github.com/xsc/codox-theme-rdash).
 
-[![Clojars Theme](https://raw.githubusercontent.com/clojang/codox-theme/master/screenshots/screen-1-thumb.png)](https://raw.githubusercontent.com/clojang/codox-theme/master/screenshots/screen-1.png)
+[![Clozhang Theme](https://raw.githubusercontent.com/clozhang/codox-theme/master/screenshots/screen-1-thumb.png)](https://raw.githubusercontent.com/clozhang/codox-theme/master/screenshots/screen-1.png)
 
-[![Clojars Theme with Code](https://raw.githubusercontent.com/clojang/codox-theme/master/screenshots/screen-2-thumb.png)](https://raw.githubusercontent.com/clojang/codox-theme/master/screenshots/screen-2.png)
 
 Note that this needs codox ≥ 0.10.0.
 
@@ -17,12 +16,12 @@ Note that this needs codox ≥ 0.10.0.
 
 Add the following dependency to your `project.clj`:
 
-[![Clojars Project](https://img.shields.io/clojars/v/clojang/codox-theme.svg)](https://clojars.org/clojang/codox-theme)
+[![Clojars Project](https://img.shields.io/clojars/v/clozhang/codox-theme.svg)](https://clojars.org/clozhang/codox-theme)
 
 Then set the following:
 
 ```clojure
-:codox {:themes [:clojang]}
+:codox {:themes [:clozhang]}
 ```
 
 For syntax highlighting capabilities, you'll need to activate Markdown rendering
@@ -30,17 +29,14 @@ via:
 
 ```clojure
 :codox {:metadata {:doc/format :markdown}
-        :themes [:clojang]}
+        :themes [:clozhang]}
 ```
 
 
 ## Examples
 
-- [clojang/jiface](https://clojang.github.io/jiface/)
-- [clojang/agent](https://clojang.github.io/agent)
-- [clojang/clojang](https://clojang.github.io/clojang)
-- [clojang/zhang-agent](https://clojang.github.io/zhang-agent)
-- [clojang/zhang](https://clojang.github.io/zhang)
+- [clozhang/zhang](https://clozhang.github.io/zhang)
+- [clozhang/zhang-redis-plugin](https://clozhang.github.io/zhang-redis-plugin)
 
 
 ## License

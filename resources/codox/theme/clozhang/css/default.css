@@ -6,12 +6,12 @@ body {
 }
 
 a {
-    color: #337ab7;
+    color: #292f33;
     text-decoration: none;
 }
 
 a:hover {
-    color: #30426a;
+    color: #1f2429;
     text-decoration: underline;
 }
 
@@ -63,6 +63,8 @@ h3 > a:hover {
     background: #eee;
     color: #333;
     padding: 0 18px;
+    padding-top: 1em;
+    padding-left: 1em;
 }
 
 .sidebar {
@@ -74,15 +76,15 @@ h3 > a:hover {
 }
 
 .sidebar.primary {
-    background: #1f283b;
-    border-right: solid 1px #1f283b;
+    background: #1f2429;
+    border-right: solid 1px #1f2429;
     left: 0;
     width: 250px;
     font-size: 110%;
 }
 
 .sidebar.secondary {
-    background: #2a364f;
+    background: #292f33;
     border-right: solid 1px #d7d7d7;
     left: 251px;
     width: 200px;
@@ -103,7 +105,7 @@ h3 > a:hover {
 }
 
 #header {
-    background: #58852b;
+    background: #d16519;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
     z-index: 100;
 }
@@ -240,7 +242,7 @@ h3 > a:hover {
 
 .sidebar.primary li.current a,
 .sidebar.secondary li.current a {
-    border-left: 3px solid #58852b;
+    border-left: 3px solid #ff8c00;
     color: white;
 }
 
@@ -262,6 +264,10 @@ h3 > a:hover {
 .namespace-index .topics {
     padding-left: 30px;
     margin: 11px 0 0 0;
+}
+
+ul.topics {
+    list-style-type: none;
 }
 
 .namespace-index .topics li {
@@ -583,6 +589,8 @@ blockquote {
     left: initial !important;
     top: 110px;
     padding: 0 1em;
+    padding-top: 1em;
+    padding-left: 1em;
   }
 
   #header {
