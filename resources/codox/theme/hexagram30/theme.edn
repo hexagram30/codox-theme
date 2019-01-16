@@ -11,7 +11,7 @@
   [:#header :h2]
   [:append
    " with the "
-   [:a {:href "https://github.com/clozhang/codox-theme"} "Clozhang UI"]
+   [:a {:href "https://github.com/hexagram30/codox-theme"} "Hexagram30 UI"]
    " theme"]]
 
  :resources
