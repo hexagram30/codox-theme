@@ -1,10 +1,10 @@
-# Clozhang Codox Theme
+# Hexagram30 Codox Theme
 
 This is a modern and responsive [codox][codox] theme developed for
-use by Clozhang projects and based based on
+use by hexagram30 projects and ultimately based based on
 [codox-theme-rdash](https://github.com/xsc/codox-theme-rdash).
 
-[![Clozhang Theme](https://raw.githubusercontent.com/clozhang/codox-theme/master/screenshots/screen-1-thumb.png)](https://raw.githubusercontent.com/clozhang/codox-theme/master/screenshots/screen-1.png)
+[![Hexagram30 Theme](https://raw.githubusercontent.com/hexagram30/codox-theme/master/screenshots/screen-1-thumb.png)](https://raw.githubusercontent.com/hexagram30/codox-theme/master/screenshots/screen-1.png)
 
 
 Note that this needs codox ≥ 0.10.0.
@@ -16,12 +16,12 @@ Note that this needs codox ≥ 0.10.0.
 
 Add the following dependency to your `project.clj`:
 
-[![Clojars Project](https://img.shields.io/clojars/v/clozhang/codox-theme.svg)](https://clojars.org/clozhang/codox-theme)
+[![Clojars Project](https://img.shields.io/clojars/v/hexagram30/codox-theme.svg)](https://clojars.org/hexagram30/codox-theme)
 
 Then set the following:
 
 ```clojure
-:codox {:themes [:clozhang]}
+:codox {:themes [:hexagram30]}
 ```
 
 For syntax highlighting capabilities, you'll need to activate Markdown rendering
@@ -29,17 +29,18 @@ via:
 
 ```clojure
 :codox {:metadata {:doc/format :markdown}
-        :themes [:clozhang]}
+        :themes [:hexagram30]}
 ```
 
 
-## Examples
+## Example
 
-- [clozhang/zhang](https://clozhang.github.io/zhang)
-- [clozhang/zhang-redis-plugin](https://clozhang.github.io/zhang-redis-plugin)
+- [hexagram30/societatis](https://hexagram30.github.io/societatis)
 
 
 ## License
+
+Copyright &copy; 2019 Hexagram30
 
 Copyright &copy; 2017 Duncan McGreggor
 
